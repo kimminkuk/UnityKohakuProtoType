@@ -10,3 +10,11 @@
 
 ### Unity Asset 구매
   - 그래픽 요소들 전부
+
+### 당장 필요한 지식
+  - Unity 시작
+  - Asset 구매 및 연결
+  - 여러 API 연결
+  - DB 저장
+  - Log 저장
+  - Server 연결
