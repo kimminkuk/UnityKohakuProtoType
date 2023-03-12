@@ -15,7 +15,7 @@
   - Unity 시작
   - Asset 구매 및 연결
   - 여러 API 연결
-  - DB 저장
+  - DB 저장 (Firebase??)
   - Log 저장
   - Server 연결
 
