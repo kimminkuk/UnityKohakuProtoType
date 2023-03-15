@@ -1,0 +1,14 @@
+[DUDE]
+1:MBTI 테스트1
+2:MBTI 테스트2
+3:MBTI 테스트3
+
+[PROG]
+1:MBTI 테스트1
+2:MBTI 테스트2
+3:MBTI 테스트3
+
+[PINKMAN]
+1:MBTI 테스트1
+2:MBTI 테스트2
+3:MBTI 테스트3
