@@ -7,8 +7,8 @@ using Firebase.Auth;
 
 public class DataBridge : MonoBehaviour
 {
+    MbtiVer1 mbtiData;
     PlayerId data;
-    string DATA_URL = "https://kohaku-be3d4-default-rtdb.firebaseio.com/";
     string userID;
 
     DatabaseReference databaseReference;
@@ -38,24 +38,6 @@ public class DataBridge : MonoBehaviour
     }
     public void LoadData(string usernameInput, string passwordInput)
     {
-
-        //FirebaseDatabase.DefaultInstance.GetReferenceFromUrl(DATA_URL).GetValueAsync()
-        //    .ContinueWith(task => {
-        //        if (task.IsCanceled) {
-        //            Debug.Log("IsCanceled");
-        //        }
-        //        if (task.IsFaulted) {
-        //            Debug.Log("Error");
-        //        }
-        //        else if (task.IsCompleted)
-        //        {
-        //            Debug.Log("[1] Login Failed");
-        //            DataSnapshot snapshot = task.Result;
-        //            string playerData = snapshot.GetRawJsonValue();
-        //            Debug.Log("Data is: " + playerData);
-        //            Debug.Log("[2] Login Failed");
-        //        }
-        //});
         Debug.Log("[1] LoadData Call()");
         databaseReference.Child("Users").GetValueAsync().ContinueWith(task => {
             if (task.IsFaulted)
